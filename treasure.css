@@ -1,0 +1,41 @@
+/* Name: recipe.css */
+/* Target a tag in HTML: 1) using the name of a tag, 2) use an id and reference the id with a # in CSS, 3) use a class reference the class with . in CSS */
+/* key:value pairs */
+/* property from CSS and a value */
+/* Responsive design - making an app look good on different sized screens */
+
+body {
+  /* background-color: #dcecfa; */
+  background-image: url(https://live.staticflickr.com/7665/17178926219_27840468b0_b.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+table {
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+td {
+  border: 2px dashed black;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+#piderman.png {
+  text-align: right;
+}
+
+/*pseudo selector*/
+td:hover{
+  color:red;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: flex-end
+}
